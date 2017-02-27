@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  <!-- Servlets -->
+ 
+  <servlet>
+    <servlet-name>TwoFactor</servlet-name>
+    <servlet-class>com.tfrederick74656.twofactor.TwoFactor</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>TwoFactor</servlet-name>
+    <url-pattern>/TwoFactor</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>TwoFactor.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

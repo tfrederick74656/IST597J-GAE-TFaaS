@@ -1,0 +1,19 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="/stylesheets/main.css"/>
+</head>
+
+<body>
+
+	<form name="loginForm" method="get" action="TwoFactor">
+		Secret: <input type="text" name="secret"/> <br/>
+		Create Secret: <input type="radio" name="option" value="CreateSecret"/> <br/>
+		Generate QR: <input type="radio" name="option" value="GenerateQR"/> <br/>
+		Get Code: <input type="radio" name="option" value="GetCode"/> <br/>
+		Verify Code: <input type="radio" name="option" value="ValidateCode"/> <br/>
+		Code: <input type="text" name="code"/> <br/>
+		<input type="submit" value="Login" />
+	</form>
+
+</body>
+</html>
